@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 100px;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.header{
+    position: relative;
+    min-height: 100vh;
+    background: rgb(0,125,255);
+    background: -moz-linear-gradient(225deg, rgba(0,0,255,1) 0%, rgba(0,255,255,1) 100%);
+    background: -webkit-linear-gradient(225deg, rgba(0,0,255,1) 0%, rgba(0,255,255,1) 100%);
+    background: linear-gradient(225deg, rgba(0,0,255,1) 0%, rgba(0,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0000ff",endColorstr="#00ffff",GradientType=1);
+    background-size: 400% 400%;
+    -webkit-animation: BGhead 14s ease infinite;
+    -moz-animation: BGhead 14s ease infinite;
+    -o-animation: BGhead 14s ease infinite;
+    animation: BGhead 14s ease infinite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    font-size: 3em;
+    color: #fff;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.header h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.header h3{
+    font-size: 1.5em;
+    color: #fff;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.overview{
+    min-height: 100vh;
+}
+
+.overview .content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.heading{
+    margin-bottom: 30px;
+}
+
+.btn-big{
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-big:hover{
+    border-color: #ccc;
+    color: #ccc;
+}
+
+.grid{
+    position: relative;
+}
+
+.g9{
+    width: 75%;
+    float: left;
+}
+.g6{
+    width: 50%;
+    float: left;
+}
+.g4{
+    width: 33.3%;
+    float: left;
+}
+.g3{
+    width: 25%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+.fade-in{
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+@-moz-keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+@-webkit-keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+@-o-keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+@-ms-keyframes fadeIn {
+0% {
+    opacity:0;
+}
+100% {
+    opacity:1;
+}
+}
+
+
+@-webkit-keyframes BGhead {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+@-moz-keyframes BGhead {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+@-o-keyframes BGhead {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+@keyframes BGhead {
+    0%{background-position:93% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:93% 0%}
+}
+
+@media screen and (max-width: 1000px){
+
+    .g6{
+    width:100%;
+    }
+    
+    section{
+    padding:30px;
+    }
+}
