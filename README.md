@@ -1,5 +1,7 @@
-# HTML / CSS Web-Course for KAR-Germany
+# HTML / CSS Web-Kurs f&uuml;r die KAR
+
+
+
+[To Website](https://webkurs.netlify.app/)
 
 > &#169; Made by Colin Djerdak at 2021
-
-[To the Web-Course](https://webkurs.netlify.app/)
