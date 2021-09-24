@@ -1,7 +1,7 @@
-# Webentwicklungs-Kurs f&uuml;r die KAR
+# Webentwicklungs-Kurs f&uuml;r Sch&uuml;ler*innen
 
+Die Webseite ist speziell für den Informatik-Unterricht an Schulen entwickelt worden.
 
-
-[To Website](https://webkurs.netlify.app/)
+[zur Webseite](https://webkurs.netlify.app/)
 
 > &#169; Made by Colin Djerdak at 2021
