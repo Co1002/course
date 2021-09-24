@@ -1,4 +1,4 @@
-# HTML / CSS Web-Kurs f&uuml;r die KAR
+# Webentwicklungs-Kurs f&uuml;r die KAR
 
 
 
