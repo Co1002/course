@@ -12,11 +12,6 @@ section{
     padding: 100px;
 }
 
-h2{
-    font-weight: 600;
-    font-size: 30px;
-}
-
 h3{
     font-weight: 600;
     font-size: 20px;
@@ -93,40 +88,55 @@ h3{
     color: #ccc;
 }
 
-.grid{
-    position: relative;
-}
-
-.g9{
-    width: 75%;
-    float: left;
-}
-.g6{
-    width: 50%;
-    float: left;
-}
-.g4{
-    width: 33.3%;
-    float: left;
-}
-.g3{
-    width: 25%;
-    float: left;
-}
-.clear{
-    clear: both;
-}
-
-ol{
-    list-style-position: inside;
-}
-
 .fade-in{
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
     -moz-animation: fadeIn ease 3s;
     -o-animation: fadeIn ease 3s;
     -ms-animation: fadeIn ease 3s;
+}
+
+.area{
+    position: relative;
+    min-height: 50vh;
+    background: rgb(0,125,255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area a{
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 3em;
+    transition: 0.3s;
+}
+
+.area a:hover{
+    transform: scale(1.2) rotateZ(5deg);
+}
+
+#html{
+    background-image: url(orange.jpg);
+}
+
+#css{
+    background-image: url(purple.jpg);
+}
+
+footer{
+    background: #0082ff;
+}
+
+footer p{
+    padding: 10px 0;
+    color: #fff;
+    opacity: 0.7;
+    text-align: center;
 }
 
 @keyframes fadeIn {
@@ -196,13 +206,40 @@ ol{
     100%{background-position:93% 0%}
 }
 
-@media screen and (max-width: 1000px){
-
-    .g6{
-    width:100%;
-    }
-    
+@media (max-width: 991px){
     section{
-    padding:30px;
+        padding: 100px 50px;
+    }
+
+    .header{
+        padding: 150px 50px 100px;
+    }
+
+    .header h2{
+        font-size: 1.5em;
+    }
+
+    .header h3{
+        font-size: 1em;
+    }
+
+    .btn-big{
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .area a{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 600px){
+    .header{
+        padding: 150px 20px 100px;
+    }
+
+    section{
+        padding: 100px 20px;
     }
 }
