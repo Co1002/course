@@ -1,3 +1,3 @@
-# HTML / CSS Kurs für den Informatik-Unterricht
+# HTML / CSS Web-Course for the Informatics-Subjects at KAR
 
-abcdefghijklmnopqrstuvwxyz
+&#169; Made by Colin Djerdak at 2021
