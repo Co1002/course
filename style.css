@@ -192,3 +192,10 @@ ol{
     50%{background-position:0% 100%}
     100%{background-position:93% 0%}
 }
+
+@media screen and (max-width: 1000px){
+
+    .g6{
+    display:block;
+    }
+}
