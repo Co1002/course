@@ -2,4 +2,4 @@
 
 &#169; Made by Colin Djerdak at 2021
 
-[To the Web-Course](https://www.webkurs.netlify.app)
+[To the Web-Course](https://webkurs.netlify.app/)
