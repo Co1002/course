@@ -6,11 +6,10 @@ function css(){
     window.location = "/css-area.html";
 }
 
-function php(){
-    window.location = "/php-area.html";
-}
-
 function js(){
     window.location = "/js-area.html";
 }
 
+function later(){
+    alert("Dieser Bereich ist noch im entstehen.")
+}
