@@ -31,7 +31,7 @@ if (pwInput == "") {
         window.location="/";
     }
     if(passwords.includes(password)){
-        setCookie("pwInput", pwEntered, 30);
+        setCookie("pwInput", "pwEntered", 30);
     }
     else{
         alert("Passwort Falsch!");
