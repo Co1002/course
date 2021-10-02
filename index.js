@@ -1,9 +1,9 @@
 function html(){
-    window.location = "/area/html-area.html";
+    window.location = "/html-area.html";
 }
 
 function css(){
-    window.location = "/area/css-area.html";
+    window.location = "/css-area.html";
 }
 
 function js(){
