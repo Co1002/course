@@ -27,10 +27,13 @@ let pwInput = getCookie("pwInput");
 if (pwInput == "") {
     var password;
     password=prompt('Bitte Passwort eingeben:',' ');
-    alert(password);
+    if(password === null){
+        window.location="/";
+    }
     if(passwords.includes(password)){
         setCookie("pwInput", pwEntered, 30);
-    }else{
+    }
+    else{
         alert("Passwort Falsch!");
         window.location="/";
     }
