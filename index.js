@@ -1,5 +1,5 @@
 function html(){
-    window.location = "/main/area/html-area.html";
+    window.location = "https://webkurs.netlify.app/area/html-area.html";
 }
 
 function css(){
