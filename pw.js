@@ -27,7 +27,7 @@ let pwInput = getCookie("pwInput");
 if (pwInput == "") {
     var password;
     password=prompt('Bitte Passwort eingeben:',' ');
-    if(password == null){
+    if(password === "null"){
         window.location="/";
     }
     if(passwords.includes(password)){
