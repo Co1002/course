@@ -1,13 +1,13 @@
 function html(){
-    window.location = "/html-area.html";
+    window.location = "/area/html-area.html";
 }
 
 function css(){
-    window.location = "/css-area.html";
+    window.location = "/area/css-area.html";
 }
 
 function js(){
-    window.location = "/js-area.html";
+    window.location = "/area/js-area.html";
 }
 
 function later(){
