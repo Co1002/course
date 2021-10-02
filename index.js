@@ -1,5 +1,5 @@
 function html(){
-    window.location = "/area/html-area.html";
+    window.location = "/main/area/html-area.html";
 }
 
 function css(){
