@@ -41,7 +41,6 @@ function login(){
             }
             else{
                 alert("Passwort Falsch!");
-                window.location="/";
             }
         }
     }else{
