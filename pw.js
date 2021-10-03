@@ -37,7 +37,8 @@ function login(){
         }else{
             if(passwords.includes(password)){
                 setCookie("pwInput", "pwEntered", 30);
-                window.location.reload("/#courses");
+                window.location.reload();
+                window.location="/#courses";
             }
             else{
                 alert("Passwort Falsch!");
