@@ -29,12 +29,13 @@ if (pwInput == "") {
     password=prompt('Bitte Passwort eingeben:',' ');
     if(password == "null"){
         window.location="/";
-    }
-    if(passwords.includes(password)){
-        setCookie("pwInput", "pwEntered", 30);
-    }
-    else{
-        alert("Passwort Falsch!");
-        window.location="/";
+    }else{
+        if(passwords.includes(password)){
+            setCookie("pwInput", "pwEntered", 30);
+        }
+        else{
+            alert("Passwort Falsch!");
+            window.location="/";
+        }
     }
 }
