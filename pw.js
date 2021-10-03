@@ -48,21 +48,3 @@ function login(){
         window.location="/#courses";
     }
 }
-
-
-let pwInput = getCookie("pwInput");
-if (pwInput == "") {
-    var password;
-    password=prompt('Bitte Passwort eingeben:','');
-    if(password == null){
-        window.location="/";
-    }else{
-        if(passwords.includes(password)){
-            setCookie("pwInput", "pwEntered", 30);
-        }
-        else{
-            alert("Passwort Falsch!");
-            window.location="/";
-        }
-    }
-}
