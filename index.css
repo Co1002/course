@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None;
 }
 
 section{
@@ -86,6 +91,7 @@ h3{
 .btn-big:hover{
     border-color: #ccc;
     color: #ccc;
+    cursor: pointer;
 }
 
 .fade-in{
