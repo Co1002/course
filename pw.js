@@ -33,11 +33,11 @@ function login(){
         var password;
         password=prompt('Bitte Passwort eingeben:','');
         if(password == null){
-            
+
         }else{
             if(passwords.includes(password)){
                 setCookie("pwInput", "pwEntered", 30);
-                window.location="/#courses";
+                location.replace("/#courses")
             }
             else{
                 alert("Passwort Falsch!");
