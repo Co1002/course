@@ -24,8 +24,8 @@ function getCookie(cname) {
 }
 
 let pwInput = getCookie("pwInput");
-if (pwInput == "") {
-    document.getElementById("courses").style.display = "none";
+if (pwInput !== "") {
+    document.getElementById("courses").style.display = "grid";
 }
 
 function login(){
