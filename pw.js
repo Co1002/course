@@ -33,7 +33,7 @@ function login(){
         var password;
         password=prompt('Bitte Passwort eingeben:','');
         if(password == null){
-            window.location="/";
+            
         }else{
             if(passwords.includes(password)){
                 setCookie("pwInput", "pwEntered", 30);
