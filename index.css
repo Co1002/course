@@ -188,7 +188,7 @@ footer p{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding: 100px 10px 0 10px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -203,7 +203,6 @@ footer p{
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    margin: 20px;
     border: 2px solid #0082ff;
     max-width: 400px;
     font-size: 1.2em;
