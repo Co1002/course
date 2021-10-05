@@ -206,6 +206,7 @@ footer p{
     border: 2px solid #0082ff;
     width: 80%;
     max-width: 400px;
+    font-size: 1.2em;
 }
 
 /* The Close Button */
@@ -253,6 +254,7 @@ form button{
 
 form button:hover, form button:focus{
     border-color: #0082ff;
+    background-color: #0082ff;
 }
 
 @keyframes fadeIn {
