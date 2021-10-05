@@ -203,7 +203,7 @@ footer p{
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 2px solid #0082ff;
     width: 80%;
     max-width: 400px;
 }
@@ -218,9 +218,41 @@ footer p{
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: #0082ff;
     text-decoration: none;
     cursor: pointer;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid #aaaaaa;
+    padding-left: 5px;
+    transition: 0.3s;
+}
+
+input:hover, input:focus{
+    border-color: #0082ff;
+}
+
+form button{
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid #aaaaaa;  
+    background-color: #aaaaaa;
+    padding-left: 5px;
+    transition: 0.3s;
+}
+
+form button:hover, form button:focus{
+    border-color: #0082ff;
 }
 
 @keyframes fadeIn {
