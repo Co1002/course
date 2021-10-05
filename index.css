@@ -210,7 +210,7 @@ footer p{
 
 /* The Close Button */
 .close {
-    color: #aaaaaa;
+    color: #0082ff;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -233,10 +233,9 @@ input{
     height: 30px;
     outline: none;
     border: none;
-    border: 1px solid #aaaaaa;
+    border: 1px solid #0082ff;
     padding-left: 5px;
     margin-bottom: 20px;
-    margin-top: 20px;
     transition: 0.3s;
 }
 
@@ -249,8 +248,9 @@ form button{
     height: 30px;
     outline: none;
     border: none;
-    border: 1px solid #aaaaaa;  
-    background-color: #aaaaaa;
+    border: 1px solid #0082ff;  
+    background-color: #0082ff;
+    font-size: 1.1em;
     transition: 0.3s;
 }
 
