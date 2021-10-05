@@ -203,8 +203,8 @@ footer p{
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
+    margin: 20px;
     border: 2px solid #0082ff;
-    width: 80%;
     max-width: 400px;
     font-size: 1.2em;
 }
