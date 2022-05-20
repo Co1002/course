@@ -31,7 +31,7 @@ if (pwInput !== "") {
 function loginBtn(){
     if (pwInput == "") {
         var psw = document.getElementById("psw");
-        if(psw == ""){
+        if(psw){
             alert("Bitte Passwort eingeben");
         }else{
             if(passwords.includes(psw)){
