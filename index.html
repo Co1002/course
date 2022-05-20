@@ -10,7 +10,7 @@
 <body>
 
     <div id="myModal" class="modal">
-        <form class="modal-content animate" action="" method="post">
+        <form class="modal-content animate" method="post">
           <div class="imgcontainer">
             <span class="close">&times;</span>
             <img src="/images/img_avatar.png" alt="Avatar" class="avatar">
@@ -19,9 +19,10 @@
           <div class="container">
       
             <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" id="psw" placeholder="Enter Password" name="psw">
               
-            <button type="submit">Login</button>
+            <button type="submit" onclick="loginBtn()">Login</button>
+            
           </div>
         </form>
     </div>

@@ -28,14 +28,13 @@ if (pwInput !== "") {
     document.getElementById("courses").style.display = "grid";
 }
 
-function login(){
+function loginBtn(){
     if (pwInput == "") {
-        var password;
-        password=prompt('Bitte Passwort eingeben:','');
-        if(password == null){
-
+        var psw = document.getElementById("psw");
+        if(psw == ""){
+            alert("Bitte Passwort eingeben");
         }else{
-            if(passwords.includes(password)){
+            if(passwords.includes(psw)){
                 setCookie("pwInput", "pwEntered", 30);
                 window.location="/#courses";
                 window.location.reload();
@@ -61,7 +60,11 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
-  modal.style.display = "block";
+    if (pwInput == "") {
+        modal.style.display = "block";
+    }else{
+        window.location="/#courses";
+    }
 }
 
 // When the user clicks on <span> (x), close the modal
