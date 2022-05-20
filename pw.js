@@ -33,6 +33,7 @@ function loginBtn(){
         var psw = document.getElementById("psw");
         if(psw){
             alert("Bitte Passwort eingeben");
+            modal.style.display = "block";
         }else{
             if(passwords.includes(psw)){
                 setCookie("pwInput", "pwEntered", 30);
@@ -41,6 +42,7 @@ function loginBtn(){
             }
             else{
                 alert("Passwort Falsch!");
+                modal.style.display = "block";
             }
         }
     }else{
