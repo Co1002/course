@@ -33,9 +33,7 @@ if (pwInput !== "") {
 function loginBtn(){
     if (pwInput == "") {
         var psw = document.getElementById("psw");
-        if(!psw){
-            error.innerHTML = 'Passwort eingeben!';
-        }else{
+        if(psw){
             if(passwords.includes(psw)){
                 setCookie("pwInput", "pwEntered", 30);
                 window.location="/#courses";
@@ -44,6 +42,8 @@ function loginBtn(){
             else{
                 error.innerHTML = 'Falsches Passwort!';
             }
+        }else{
+            error.innerHTML = 'Passwort eingeben!';
         }
     }else{
         window.location="/#courses";
