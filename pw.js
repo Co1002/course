@@ -1,5 +1,7 @@
 const passwords = ['KARpf'];
 
+var error = document.getElementById("error");
+
 function setCookie(cname,cvalue,exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -31,9 +33,8 @@ if (pwInput !== "") {
 function loginBtn(){
     if (pwInput == "") {
         var psw = document.getElementById("psw");
-        if(psw){
-            alert("Bitte Passwort eingeben");
-            modal.style.display = "block";
+        if(!psw){
+            error.innerHTML = 'Passwort eingeben!';
         }else{
             if(passwords.includes(psw)){
                 setCookie("pwInput", "pwEntered", 30);
@@ -41,8 +42,7 @@ function loginBtn(){
                 window.location.reload();
             }
             else{
-                alert("Passwort Falsch!");
-                modal.style.display = "block";
+                error.innerHTML = 'Falsches Passwort!';
             }
         }
     }else{
