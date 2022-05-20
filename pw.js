@@ -34,7 +34,7 @@ function loginBtn(){
     if (pwInput == "") {
         var psw = document.getElementById("psw");
         if(psw){
-            if(passwords.includes(psw)){
+            if(passwords.includes(psw.value())){
                 setCookie("pwInput", "pwEntered", 30);
                 window.location="/#courses";
                 window.location.reload();
